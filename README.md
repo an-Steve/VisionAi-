@@ -11,7 +11,7 @@ Application web locale moderne développée en **Python (Flask)** et **HTML / CS
 
 ##  Fonctionnalités Principales
 
-### 1. 👁️ Analyse d'Image par Vision IA (Local avec Ollama)
+### 1.  Analyse d'Image par Vision IA (Local avec Ollama)
 - **Modèles compatibles** : Détection automatique des modèles Vision installés dans Ollama (`gemma4:e2b`, `llama3.2-vision`, `llava`, `minicpm-v`, `qwen2.5vl`, etc.).
 - **Chargement flexible** : Glisser-déposer (Drag & Drop), explorateur de fichiers ou **collage direct depuis le presse-papier (`Ctrl+V`)**.
 - **Diffusion en direct (Streaming)** : Le texte s'affiche mot par mot en temps réel.
