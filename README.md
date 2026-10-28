@@ -1,12 +1,15 @@
-# 👁️ VisionAI Studio - Analyse & Génération d'Images avec Ollama
+#  VisionAI Studio - Analyse & Génération d'Images avec Ollama 👁️
 
 > **Réalisé par ANTON NELCON Steve**
 
 Application web locale moderne développée en **Python (Flask)** et **HTML / CSS / JavaScript**, utilisant **Ollama** pour analyser et décrire des images en langage naturel (français), ainsi qu'un générateur d'images à partir de texte enrichi par l'IA.
 
+<img width="1917" height="880" alt="image" src="https://github.com/user-attachments/assets/04c4d8f5-745c-4485-92c7-a51122fdeb37" />
+
+
 ---
 
-## ✨ Fonctionnalités Principales
+##  Fonctionnalités Principales
 
 ### 1. 👁️ Analyse d'Image par Vision IA (Local avec Ollama)
 - **Modèles compatibles** : Détection automatique des modèles Vision installés dans Ollama (`gemma4:e2b`, `llama3.2-vision`, `llava`, `minicpm-v`, `qwen2.5vl`, etc.).
@@ -20,19 +23,19 @@ Application web locale moderne développée en **Python (Flask)** et **HTML / CS
   - *Liste à puces* (synthèse ordonnée)
   - *Poétique* (évocation artistique)
 
-### 2. 🎨 Générateur d'Image (Texte ➜ Image)
+### 2.  Générateur d'Image (Texte ➜ Image)
 - **Création à partir de phrases** : Écrivez n'importe quelle idée en français.
-- **✨ Amélioration du prompt par Ollama** : Traduit et enrichit votre idée en un prompt visuel détaillé (éclairage cinématique, rendu 8K, composition).
+- ** Amélioration du prompt par Ollama** : Traduit et enrichit votre idée en un prompt visuel détaillé (éclairage cinématique, rendu 8K, composition).
 - **Styles artistiques** : Cinématique, Photoréaliste, Anime/Manga, Cyberpunk, Fantastique, Aquarelle.
 - **Formats** : Carré (1:1), Paysage (16:9), Portrait (9:16).
 - **Pont direct vers la Vision** : Un clic sur *"Analyser l'image"* envoie immédiatement l'image générée dans l'onglet Vision pour la faire décrire par Ollama !
 
-### 3. 📜 Historique & Galerie
+### 3.  Historique & Galerie
 - Sauvegarde locale automatique de toutes les analyses et images créées dans `history.json`.
 
 ---
 
-## 🚀 Démarrage Rapide
+##  Démarrage Rapide
 
 ### Option 1 : Lancement en un clic sous Windows
 Double-cliquez simplement sur le fichier :
@@ -54,7 +57,7 @@ Il ouvrira votre navigateur sur `http://localhost:5000` et démarrera le serveur
 
 ---
 
-## 🧠 Modèles Ollama Recommandés
+##  Modèles Ollama Recommandés
 
 L'application détecte automatiquement vos modèles installés. Vous disposez déjà de modèles compatibles vision comme `gemma4:e2b`.
 
@@ -70,11 +73,11 @@ ollama pull llava
 # MiniCPM-V
 ollama pull minicpm-v
 ```
-Puis cliquez sur l'icône de rafraîchissement (🔄) dans l'interface web pour que le nouveau modèle apparaisse instantanément.
+Puis cliquez sur l'icône de rafraîchissement () dans l'interface web pour que le nouveau modèle apparaisse instantanément.
 
 ---
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 Image/
